@@ -1,0 +1,61 @@
+body{
+    background-color: #d0ffd0;
+    background-image:
+    linear-gradient(rgb(208, 235, 208,0.7), rgb(208, 235, 208, 0.7)),
+     url("background.png");
+    background-size: cover;
+}
+
+#watchDesign{
+    width: 50%;
+    height: 16em;
+    margin: auto;
+    margin-top: 15em;
+    background-color: black;
+    border-radius: 2em;
+    padding: 1em;
+}
+#watchDesign1{
+    width: 60%;
+    display: inline-block;
+    background-color: rgb(10, 40, 80, 0.7);
+    color: rgb(208, 255, 208);
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 3em;
+}
+
+
+#time{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
+    font-size: 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+.diffTime{
+    color: rgb(208, 255, 208, 0.5);
+    display: block;
+    text-align: center;
+    margin: 1em 0em;
+}
+.diffTime:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#otherTime{
+    display: inline-block;
+    width: 30%;
+    padding: 1em 0em;
+}
+
+h4{
+    color: rgb(208, 255, 208, 0.5);
+    text-decoration: underline;
+    text-align: center;
+}
+#gmt{
+    color: rgb(10, 40, 80, 0.7);
+}
